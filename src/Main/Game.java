@@ -5,7 +5,7 @@ import javax.swing.*;
 public class Game extends JFrame {
     private GameScreen gameScreen;
     public Game(){
-        setSize(400,400);
+        setSize(640,640);
         setVisible(true);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
@@ -13,7 +13,7 @@ public class Game extends JFrame {
         add(gameScreen);
     }
     public static void main(String[] args) {
-        System.out.println("Hello world");
+
         Game game = new Game();
     }
 }
